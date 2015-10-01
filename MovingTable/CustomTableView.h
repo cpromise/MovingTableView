@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomTableView.h
 //  MovingTable
 //
 //  Created by SH on 2015. 10. 1..
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CustomTableView : UITableView
 
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+- (NSInteger)getContentHeight;
 
 @end
-

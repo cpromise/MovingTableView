@@ -15,6 +15,7 @@
 		D8F542191BBCFF0700EFA545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F542171BBCFF0700EFA545 /* LaunchScreen.storyboard */; };
 		D8F542241BBCFF0700EFA545 /* MovingTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F542231BBCFF0700EFA545 /* MovingTableTests.m */; };
 		D8F5422F1BBCFF0700EFA545 /* MovingTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F5422E1BBCFF0700EFA545 /* MovingTableUITests.m */; };
+		D8F5423E1BBCFF6600EFA545 /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F5423D1BBCFF6600EFA545 /* CustomTableView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D8F5422A1BBCFF0700EFA545 /* MovingTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovingTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F5422E1BBCFF0700EFA545 /* MovingTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovingTableUITests.m; sourceTree = "<group>"; };
 		D8F542301BBCFF0700EFA545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F5423C1BBCFF6600EFA545 /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		D8F5423D1BBCFF6600EFA545 /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				D8F542171BBCFF0700EFA545 /* LaunchScreen.storyboard */,
 				D8F5421A1BBCFF0700EFA545 /* Info.plist */,
 				D8F542091BBCFF0700EFA545 /* Supporting Files */,
+				D8F5423C1BBCFF6600EFA545 /* CustomTableView.h */,
+				D8F5423D1BBCFF6600EFA545 /* CustomTableView.m */,
 			);
 			path = MovingTable;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				D8F542111BBCFF0700EFA545 /* ViewController.m in Sources */,
 				D8F5420E1BBCFF0700EFA545 /* AppDelegate.m in Sources */,
+				D8F5423E1BBCFF6600EFA545 /* CustomTableView.m in Sources */,
 				D8F5420B1BBCFF0700EFA545 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
